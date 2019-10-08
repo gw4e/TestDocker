@@ -6,5 +6,9 @@
   "author": "",
   "dependencies": {
     "express": "3.2.4"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "heroku-postbuild": "docker build -t chab:test -f Dockerfile ."
   }
 }
