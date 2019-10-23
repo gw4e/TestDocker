@@ -5,7 +5,7 @@
   "description": "Hello xx world Example",
   "author": "",
   "dependencies": {
-    "express": "3.2.4"
+    "express": "4.17.1"
   },
   "scripts": {
     "start": "node ./index.js",
